@@ -1,0 +1,10 @@
+{
+  "aps": {
+    "alert": {
+      "title": "Simulated Push",
+      "body": "This is a test"
+    },
+    "sound": "default"
+  }
+}
+

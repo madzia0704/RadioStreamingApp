@@ -1,0 +1,19 @@
+disabled_rules:
+#  - trailing_whitespace
+#  - line_length
+
+opt_in_rules:
+  - empty_count
+  - missing_docs
+
+line_length:
+  warning: 120
+  error: 150
+
+excluded:
+  - Pods
+  - Carthage
+  - Scripts
+
+reporter: "xcode"  # raporty w Xcode-friendly formacie
+
