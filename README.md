@@ -34,7 +34,7 @@ EKRAN 1: (StationListView)
 -> Wyświetla listę stacji
 -> Filtrowanie i wyszukiwanie: przez Combine w StationListViewModel (Stworzyłam jeden ekran, na którym są wyświetlane i filtrowane stacje. Uznałam, że tak będzie przyjaźniej dla użytkownika i bardziej intuicyjnie. Dlatego zamiast dwóch kontrolerów StationListViewController i SearchViewController, mamy jeden StationListViewModel).
 Użytkownik może filtrować stacje po nazwie i mieście (można podać część nazwy) oraz po kategorii (wybór kategorii poprzez kliknęcie na odpowiednią zakładkę / tab).
--> Zawiera przełącznik "Użyj Api" - wyświetla realne dane (true) lub zamockowane (false).
+-> Zawiera przełącznik "Użyj Api" - wyświetla realne dane (true) lub zamockowane (false). Api nie zawiera wszystkich wymaganych danych, dlatego zdecydowałam się na dodanie opcji wyświetlenia zamockowanych danych.
 -> Użytkownik może zaznaczyć stację jako ulubioną.
 -> Po kliknięciu na daną stację przechodzi do ekranu odtwarzania
 
@@ -77,4 +77,4 @@ Tworzenie i obsługa lokalnych powiadomień
 ✅ testNotifyFavoriteSchedulesNotification() – test generowania powiadomień lokalnych
 
 
-AUROR: Magdalena Popińska
+AUTOR: Magdalena Popińska
